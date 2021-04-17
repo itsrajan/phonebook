@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Component for adding a new person to the phonebook
 
 const PersonForm = ({newName, setNewName, newNumber, setNewNumber, addPerson, focusName}) => {
     return (
