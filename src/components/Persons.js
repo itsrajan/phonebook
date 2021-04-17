@@ -1,7 +1,5 @@
 import React from 'react';
 
-// Component for displaying all the persons in the phonebook
-
 const Persons = ({persons, searchName, deletePerson}) => {
     return (
         persons.length ?
