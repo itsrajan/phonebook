@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 
-// Component to display a notification using the given message (and type, for stylistic purposes)
 
 const Notification = ({message, type, setMessage, setType}) => {
 
@@ -13,7 +12,7 @@ const Notification = ({message, type, setMessage, setType}) => {
             }, 5000);
             return () => clearTimeout(timer);
         }
-        // eslint-disable-next-line
+  
     }, [message]);
 
     return (
