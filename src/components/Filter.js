@@ -1,7 +1,5 @@
 import React from 'react';
 
-// Component for filtering the phonebook by the searched name
-
 const Filter = ({searchName, setSearchName}) => {
     return (
         <div>
